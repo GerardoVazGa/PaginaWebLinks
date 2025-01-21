@@ -1,0 +1,16 @@
+.BtnRegresoInicio{
+    display: flex;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: none;
+    background-color: #ba80d1;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.BtnRegresoInicio:hover{
+    background-color: #ab43d4;
+    cursor: pointer;
+}

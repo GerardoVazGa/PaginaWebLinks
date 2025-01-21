@@ -1,0 +1,42 @@
+.Plantillasbody{
+    text-align: center;
+    min-height: 100vh;
+    background: rgb(255,175,241);
+    background: linear-gradient(180deg, rgba(255,175,241,1) 29%, rgba(254,155,255,0.7008053221288515) 56%, rgba(246,189,242,0.35906862745098034) 100%);
+}
+
+.BtnRegreso{
+    display: flex;
+    justify-content: flex-start;
+    padding: 40px;
+}
+
+.Plantilla{
+    display: flex;
+    padding: 40px;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.expanded-image-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Asegura que el modal esté por encima de todo */
+  }
+  
+  .expanded-image {
+    max-width: 90%;
+    max-height: 90%;
+    object-fit: contain;
+    cursor: pointer;
+  }
+  
+
