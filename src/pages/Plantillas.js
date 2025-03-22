@@ -11,6 +11,7 @@ const Plantillas = () => {
 
   const plantillas = [
     { id: 1, imageName: 'chequeo.png', title: 'Chequeo', fileUrl: 'ChequeoEnCasa.pdf' },
+    { id: 2, imageName: 'Habitos.png', title: 'Habitos', fileUrl: 'Habitos.pdf'}
   ];
 
   function goBack() {
